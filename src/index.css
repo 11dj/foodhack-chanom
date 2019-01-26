@@ -12,3 +12,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.App {
+  background: #fd0;
+  width: 100vw;
+  height: 100vh;
+  max-width: 400px;
+}
+
+.container {
+  background: #fc0;
+  height: 100vh;
+}
