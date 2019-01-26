@@ -1,0 +1,31 @@
+hr {
+    border: 1px solid white;
+    margin: 10px 20px;
+}
+
+#brand {
+    text-align: center;
+}
+
+#brand img {
+    width: 40%;
+}
+
+#des {
+    margin: 20px;
+    text-align: center;
+}
+
+#des p {
+    color: white;
+}
+
+#discount h2, h3 {
+    text-align: center;
+    color: white;
+}
+
+#button button {
+    height: 35px;
+    width: 140px;
+}
