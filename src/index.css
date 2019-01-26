@@ -13,13 +13,9 @@ code {
     monospace;
 }
 .App {
-  background: #fd0;
+  /* background: #fd0; */
   width: 100vw;
   height: 100vh;
   max-width: 400px;
 }
 
-.container {
-  background: #fc0;
-  height: 100vh;
-}
