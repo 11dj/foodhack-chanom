@@ -1,31 +1,20 @@
-# React-template
+# Chanom Coupon
 
-I created this for saving time to create components, containers, routes, reducer and install several necessary packages.
+New feature for the merchant to gain more customers from our AI via promotion.
 
--------
 
-## Installation
+### Installing
 
-for user prefer npm
-```bash
+
+```
+git clone https://github.com/kittist/foodhack-chanom.git
 npm install
 npm start
 ```
-or user who prefer use yarn
-```bash
-yarn add
-yarn start 
+
+## Deployment
+
 ```
--------
+npm run build
+```
 
-## Usage
-
--------
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[No license](https://choosealicense.com/licenses/mit/)# 
