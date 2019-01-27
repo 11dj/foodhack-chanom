@@ -41,7 +41,7 @@ class CouponCreate extends Component {
             <img src="/img/back.png" width={24} alt=""/>
           </div>
           <div className='header'>
-            Create new coupon
+            Create coupon
           </div>
         </div>
 

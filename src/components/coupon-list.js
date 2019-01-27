@@ -7,11 +7,13 @@ class CouponList extends Component {
   render() {
     return (
       <div className='container' id='coupon'>
-        <div className='back-div' onClick={()=> this.props.history.push('/')}>
-          <img src="/img/back.png" width={24} alt=""/>
-        </div>
-        <div className='header'>
-          Coupons
+        <div style={{ position: 'relative'}}>
+          <div className='back-div' onClick={()=> this.props.history.push('/')}>
+            <img src="/img/back.png" width={24} alt=""/>
+          </div>
+          <div className='header'>
+            Coupon
+          </div>
         </div>
         <div className='coupon-body'>
           {
@@ -27,7 +29,7 @@ class CouponList extends Component {
                           <div className='title'>Discount for first try</div>
                           <div className='bottom'>valid until:  09/09/19</div>
                         </div>
-                        <div className='right'>50 ฿</div>
+                        <div className='right'>50฿</div>
                       </div>
                     </div>
                     <div className="coupon-item-bt-line"></div>

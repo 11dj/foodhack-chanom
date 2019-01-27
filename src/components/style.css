@@ -58,7 +58,8 @@
   background: #fff;
   display: flex;
   justify-content: space-between;
-  flex: 4
+  flex: 4;
+  align-items: center;
 }
 .coupon-item-div > .left {
   padding: 6px;
@@ -73,7 +74,7 @@
   color: lightgray
 }
 .coupon-item-div > .right {
- font-size: 48px;
+ font-size: 36px;
  color: gray;
 }
 .coupon-item-bt-line {
@@ -168,7 +169,7 @@
 }
 
 #coupon-detail {
-  width: 375px;
+  width: 100%;
 }
 
 .hr-line {

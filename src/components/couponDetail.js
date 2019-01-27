@@ -12,8 +12,13 @@ class CouponDetail extends Component {
   render() {
     return (
       <div className='container' id='coupon-detail'>
-        <div className='header'>
-          Coupon Detail
+        <div style={{ position: 'relative'}}>
+          <div className='back-div' onClick={()=> this.props.history.push('/')}>
+            <img src="/img/back.png" width={24} alt=""/>
+          </div>
+          <div className='header'>
+            Coupon Detail
+          </div>
         </div>
 
         <hr className='hr-line' />

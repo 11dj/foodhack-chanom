@@ -2,7 +2,7 @@
   "name": "react-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kittist.github.io/foodhack-chanom",
+  "homepage": ".",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.7.0",
@@ -34,7 +34,6 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "proxy": "http://localhost:5000/",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
