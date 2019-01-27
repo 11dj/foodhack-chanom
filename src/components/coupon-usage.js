@@ -54,9 +54,9 @@ class CouponUsage extends Component {
 
           <div className="coupon-usage-chart">
             <div className="graph-chart">
-              <div className="box-mark" id='gmt1' />
-              <div className="box-mark" id='gmt2' />
-              <div className="box-mark" id='gmt3' />
+              <div className="box-mark" id='gmt1' style={{ height: '60px'}}/>
+              <div className="box-mark" id='gmt2' style={{ height: '100px'}}/>
+              <div className="box-mark" id='gmt3' style={{ height: '70px'}}/>
             </div>
           </div>
 

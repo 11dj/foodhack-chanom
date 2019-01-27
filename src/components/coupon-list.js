@@ -27,7 +27,7 @@ class CouponList extends Component {
                           <div className='title'>Discount for first try</div>
                           <div className='bottom'>valid until:  09/09/19</div>
                         </div>
-                        <div className='right'>50%</div>
+                        <div className='right'>50 ฿</div>
                       </div>
                     </div>
                     <div className="coupon-item-bt-line"></div>

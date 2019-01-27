@@ -27,6 +27,10 @@ class CouponCreate extends Component {
     }
   }
 
+  componentDidUpdate () {
+    console.log(this.state)
+  }
+
 
   render() {
     return (
@@ -47,16 +51,18 @@ class CouponCreate extends Component {
           <div>
             <h3>Title </h3>
             <input type="text" defaultValue={this.state.title} className="coupon-create-input" name="title" 
-            placeholder="Enter title"
+            placeholder="Input title"
             onChange={(e) => this.handleChange('title', e)} />
           </div>
           <div>
             <h3>Discount </h3>
             <div style={{ display: 'flex' }}>
-              <input type="text" defaultValue={this.state.discount} style={{ flex: '3' }} className="coupon-create-input" name="title" 
-              placeholder="Enter title" 
+              <input type="number" defaultValue={this.state.discount} style={{ flex: '3' }} className="coupon-create-input" name="title" 
+              placeholder="Input discount" 
               onChange={(e) => this.handleChange('discount', e)} />
-              <select name="" id="" className="coupon-create-input" style={{ flex: '1' }} defaultValue={this.state.select}>
+              <select name="" id="" className="coupon-create-input"
+              style={{ flex: '1', background: '#fff', marginLeft: '4px' }}
+              defaultValue={this.state.select}>
                 <option defaultValue="percent"> % </option>
                 <option defaultValue="baht">Baht</option>
               </select>
@@ -64,7 +70,7 @@ class CouponCreate extends Component {
           </div>
           <div>
             <h3>Description </h3>
-            <textarea className="coupon-create-input" name="" id="" cols="48" rows="8"
+            <textarea className="coupon-create-input" placeholder="Tell me about this discount"  name="" id="" cols="48" rows="8"
             defaultValue={this.state.description} onChange={(e) => this.handleChange('description', e)} />
           </div>
           <div>

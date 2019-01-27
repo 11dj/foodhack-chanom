@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import { withRouter } from "react-router-dom";
 
 class CouponDetail extends Component {
+  constructor () {
+    super()
+    this.state = {
+      content: 'โปรโมชั่นสุดพิเศษ สำหรับลูกค้าที่ไม่เคยทานกับทางร้านเรามาก่อน! เพียงสั่งอาหารใดๆกับทางเราเป็นครั้งแรกรับส่วนลด 50 บาทไปทันทีเลย'
+    }
+  }
+
   render() {
     return (
       <div className='container' id='coupon-detail'>
@@ -19,15 +26,13 @@ class CouponDetail extends Component {
         <hr className='hr-line' />
 
         <div className='coupon-detail-body'>
-          rerigwenoriwneriogniirniaf
-            sasdassdsadadasddfdsfdsfds
-            sdfsdffdbzdfzvsdvzdsvsdvzsd
+          {this.state.content}
         </div>
 
         <hr className='hr-line' />
 
         <div className='coupon-detail-discount-div'> 
-          <h2> Discount: 50%</h2>
+          <h2> Discount: 50 Baht</h2>
           <h3> Valid Until: 09/09/19 - 10/10/19 </h3>
         </div>
 
